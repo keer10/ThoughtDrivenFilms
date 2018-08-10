@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+	.banner-img{
+		width:50%;
+		margin-left:25%;
+	}
+	.inline-flex-center{
+		display: flex;
+		justify-content: center;
+	}
+	.ptb30{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.ptb10{
+		padding-bottom: 10px;
+		padding-top: 10px;
+	}
+  }
+
+  @media screen and (max-width: 425px) {
+	.pb30{
+		padding-bottom: 30px;
+	}
+  }
+
+  .showcase-header{
+	text-align: center;
+    margin-top: 30px;
+    color: black;
+    margin-bottom: 30px;
+	font-size: 30px !important;
+  }
+
+  .person-box{
+	padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .showcase-bg{
+	 background: #496b60;
+  }
+
+  .person{
+	  width: 50%;
+	  border-radius: 50%;
+	  border: 2px solid black;
+  }
+
+  .footer-icon{
+	  padding: 10px;
+	  border: 1px solid black;
+  }
